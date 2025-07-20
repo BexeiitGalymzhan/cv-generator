@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card input,
+textarea {
+  width: 85%;
+  height: 30px;
+}
+
+.info {
+  flex: 1 1 350px; /* grow, shrink, base width */
+  max-width: 400px;
+}
+
+.cv {
+  flex: 2 1 600px;
+}
